@@ -23,7 +23,7 @@
 class PiwikPlugin extends PluginBase {
 	protected $storage = 'DbStorage';
 	static protected $description = 'Adds Piwik tracking codes to Limesurvey pages.';
-	static protected $name = 'Piwik for Limesurvey';
+	static protected $name = 'Piwik for LimeSurvey';
 
 	protected $settings = array(
 		'piwik_title_BasicSettings'=>array(
